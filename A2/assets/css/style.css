@@ -1,0 +1,44 @@
+/*CSS Style - cascading style sheets*/
+
+
+/*syntax: selector {declaration block}*/
+/*declaration block: property : value ;*/
+
+/*TYPE selector*/
+h1 {color: orangered;
+	font-size: 50px;
+
+}
+
+
+p {
+	background-color: pink;
+}
+
+/*ID selector use #*/
+#p1 {
+	background-color: green
+}
+
+/*CLASS selector*/
+.right {
+	float: right;
+}
+
+
+/*ATTRIBUTE selector*/
+[type="text"] {
+	color: blue;
+	background-color: yellow;
+
+}
+/*UNIVERSAL selector*/
+/*this is lest prioritize*/
+* {
+	color: black; background-color: white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
