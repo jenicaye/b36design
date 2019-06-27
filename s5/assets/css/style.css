@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, p {
+	background-color: lightgrey;
+}
+
+em, strong {
+	background-color: lightblue;
+	/*display: block;*/
+}
+
+/*"display: block" will change the element from inline to block*/
+
+h1{
+	padding: 50px;
+	/*padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 40;*/
+	padding: 10px 20px 30px 40px;
+	/*border : size style color*/
+	/*border: 1px solid #5D6063;*/
+	border-top: 1px solid #5D6063;
+	margin-bottom: 40px;
+}
+
+/*if padding is given one value, will apply to all 4 paddings; if given 4 value, x y z i, x (top right bottom left); if given two value x and y, x will be horizantal (top and bottom, y will be vertical (left and right)*/
+
+p {
+	padding: 20px 10px;
+	margin: 50px;
+}
+
+strong {
+	margin: 50px;
+}
+
+/*for inline element, margin will only work for horizontal (top and bottom)*/
+#container {
+	background-color: skyblue;
+	padding: 50px;
+	text-align: center;
+	border: 2px solid #5D6063;
+	border-radius: 5px;
+	/*width: 200px;*/
+	width: 50%;
+	/*width: 60%;*/
+	/*box-sizing: content-box;*/
+	/*box-sizing: border-box;*/
+	/*margin-left: 100px;*/
+	/*margin-left: 25%;*/
+	margin: 0 auto;
+}
+
+/*default inline container: span vs div, div is block container*/
+/*block elements can change their width*/
+/*"width: 50%" only consider content, not consider border, margin and padding*/
+/*"box-sizing: content-box" is default, only consider content; "box-sizing: border-box", padding, border and margin will be considered for width computation*/
+/*box-sizing: border-box normally put in with margin and padding, at first;*/
+/*border-radius: edge*/
+/*margin-left=(100-width)/2*/
+/*"margin: 0 auto", auto left and right, give y (vertical) 0 (only applicable when width is less than 100%*/
+/*border-radius equal to 100%, the shape is circle, though still considered box*/
+span {
+	color: red;
+	font-weight: bold;
+}

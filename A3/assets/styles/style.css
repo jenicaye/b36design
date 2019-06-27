@@ -42,9 +42,10 @@ nav ul li a {
 	padding: .5em 1em;
 	margin: .5em;
 }
-nav ul li a:hover {
+/*nav ul li a:hover {
 		color: white;
-}
+}*/
+/*if not going to create pseuode.css*/
 
 nav ul {
 	margin: 0;
