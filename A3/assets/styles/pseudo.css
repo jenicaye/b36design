@@ -1,0 +1,14 @@
+nav ul li a:hover {
+		color: white;
+}
+nav ul li a:active{
+	color: white;
+	}
+
+h3::first-letter {
+	font-size: 40px;
+}
+
+.description::first-line {
+  text-decoration: underline;
+}

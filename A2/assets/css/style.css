@@ -4,37 +4,9 @@
 /*syntax: selector {declaration block}*/
 /*declaration block: property : value ;*/
 
-/*TYPE selector*/
-h1 {color: orangered;
-	font-size: 50px;
-
-}
-
-
-p {
-	background-color: pink;
-}
-
-/*ID selector use #*/
-#p1 {
-	background-color: green
-}
-
-/*CLASS selector*/
-.right {
-	float: right;
-}
-
-
-/*ATTRIBUTE selector*/
-[type="text"] {
-	color: blue;
-	background-color: yellow;
-
-}
 /*UNIVERSAL selector*/
-/*this is lest prioritize*/
-* {
+/*this is least prioritize*/
+/** {
 	color: black; background-color: white;
 }
 
@@ -42,3 +14,83 @@ p {
 	margin: 0;
 	padding: 0;
 }
+*/
+/*TYPE selector*/
+/*h1 {
+	color: orangered;
+	font-size: 50px;
+}*/
+
+/*p {
+	background-color: pink;
+}
+*/
+
+/*ID selector use #*/
+/*#p1 {
+	background-color: green;
+}*/
+
+/*CLASS selector*/
+/* .right {
+	float: right;
+}
+*/
+
+/*ATTRIBUTE selector*/
+/*[type="text"] {
+	color: blue;
+	background-color: yellow;
+}*/
+
+/*Combinator*/
+/*adjacent sibling selector ( + )*/
+/*1*/
+/*#child1 + p + div {
+	background-color: blue;
+}*/
+/*
+p + div + p {
+
+}*/
+
+2
+#child1 + div + p {
+	background-color: yellow;
+}
+
+/*3
+#child1 + div {
+	background-color: red;
+}*/
+
+/*1*/
+/*target : child1, then find its sibling, which is p in this case, only targetting the next sibling, the sibling next to the next sibling will not be target, selector only */
+/*2&3*/
+/*if the following sibling is <div>, no target will be sellect by the combinator; if the next next sibling is p, p will be sellect*/
+/*adjacent sibling should be the following sibling*/
+
+/*general sibling selector ( ~ )*/
+/*#child1 ~ p, #child1 ~ div {
+	background-color: violet;
+} */
+
+/*following siblings of child 1 only, child 0 will not be targeted*/
+/*p in div will not be targeted as it is not sibling*/
+
+/*child selector ( > )*/
+/*all the child*/
+/*
+#child1 ~ div > p {
+	background-color: green;
+}
+*/
+
+/*descendant selector ( )*/
+/*indside the ( ) is white space*/
+/*target specific attribute only*/
+/*#parent div {
+	background-color: green;
+}*/
+/*TYPE selector prioritized*/
+

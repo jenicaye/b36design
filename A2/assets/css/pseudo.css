@@ -1,0 +1,82 @@
+Pseudo classes
+/** {
+	background-color: black;
+}*/
+* {
+	margin: 0;
+	padding: 0;
+}
+/*pseudo classes - tarets 'state' of element*/
+/*link is state when not yet visited*/
+a:link {
+	color: green;
+} 
+/*focus is when you enter the textfield/ area*/
+input:focus{
+	background-color: pink;
+}
+
+a:visited {
+	color: yellow;
+}
+/*to clear all history and make the link unvisited clear history, advance-all time*/
+
+/*link visited is specific for anchor tag only, hover and active can be used anywhere applicable, example div, h1*/
+
+a:hover,{
+	color: blue;
+}
+
+h1:hover, a:hover {
+	color: blue;
+}
+
+/*acive -when clicking (present tense)*/
+a:active {
+	color: yellow;
+}
+
+h1:active, a:active {
+	color: yellow;
+}
+
+/*hierarchy or prioritization of above: LoVe, HAte (link, visited, hover/ focus, active)*/
+
+/*pseudo elements (::)*/
+/*doublre colon*/
+/*first line only*/
+/*case sentive, do not use space in order to target properly*/
+
+#Section_2::first-line {
+	color: red;
+}
+
+p::first-letter {
+	font-size: xx-large;
+	color: blue;
+}
+
+h1::before {
+	content: "♥";
+	color: red;
+}
+
+h1::after {
+	content: "♥";
+	color: red;
+}
+
+h2::selection {
+	color: yellow;
+	border: 1px;
+	/*font-size: 300em;*/
+	background-color: black;
+}
+/*font-size not working*/
+
+
+/*Specificity
+Add 1000 for style attribute
+Add 100 for each ID
+Add 10 for each attribute, class or pseudo-class
+Add 1 for each element name or pseudo-element*/
