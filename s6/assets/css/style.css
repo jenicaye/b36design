@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div { 
+	padding: 20px;
+}
+
+.grandparent {
+	background-color: skyblue;
+	position: fixed;
+/*	bottom: 0;
+	left: 0;*/
+	left: 50px;
+	z-index: -1;
+}
+
+/*default: z index equal to 0*/
+
+#p {
+	z-index: -2;
+}
+
+.parent {
+	background-color: pink;
+	position: relative;
+}
+
+strong {
+	background-color: yellow;
+	position: absolute;
+	/*top: 15px;
+	left: 15px;*/
+	top: 0;
+	left: 0;
+}
+
+/*default: position static*/
+/*position: relative*/
+/*top: 50px;*/
+/*left: -250px;*/
+/*position: absolute other elements ignore its existance, and will occupied this elements space*/
+/*position: absolute with regards/respects to window external border*/
+/*top and bottom, left and right normally are used seperately*/
+/*relative absolute positioning: position absolute with respects to nearest not position static/fixed (which is position relative) parent element*/

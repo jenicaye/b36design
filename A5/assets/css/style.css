@@ -10,6 +10,19 @@ body {
 	background-color: lightgrey;
 }
 
+header {
+	color: white;
+	background-color: #0084ff
+
+.section {
+	background-color: white;
+	height: 200px;
+	margin-bottom: 10px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+}
 .title {
 	width: 1000px;
 	margin: 10px auto;

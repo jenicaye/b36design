@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.menu {
+	height: 100px;
+	background-color: #B2D6FF;
+}
+/*#B2D6FF ANIKAWA*/
+
+.sidebar {
+	height: 300px;
+	width: 200px;
+	background-color: #F09A9D;
+	float: left;
+}
+/*#F09A9D Sea Pink*/
+
+.content {
+	height: 500px;
+	width: 650px;
+	background-color: #F5CF8E;
+	float: left;
+}
+/*#F5CF8E  Manhattan*/
+
+.footer {
+	clear: both;
+	height: 200px;
+	background-color: #D6E9FE;
+}
+/*#D6E9FE  Pattens Blue*/
+/*the feature of "clear" is clearing floating*/
