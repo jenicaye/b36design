@@ -7,7 +7,7 @@
 .page {
 	width: 900px;
 	margin: 0 auto;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .menu {
 	height: 100px;
@@ -33,8 +33,35 @@
 
 .footer {
 	clear: both;
-	height: 200px;
+	/*height: 200px;*/
+	border: 1px solid red;
 	background-color: #D6E9FE;
 }
 /*#D6E9FE  Pattens Blue*/
 /*the feature of "clear" is clearing floating*/
+/*clear left and right may not applicable sometimes, but clear floating in general will work*/
+
+.clear::after {
+	/*overflow: auto;*/
+	content: "/*hello*/";
+	clear: both;
+	display: table;
+}
+/*clear::after and float can recognize the width of the element, not height*/
+/*display: table is not required prior to the update of HTML*/
+/*overflow recognize overflowing elemnents and automatically adjust its dimensions*/
+/*cloat and clear*/
+
+
+.column {
+	background-color: #B2D6FF;
+	height: 160px;
+	width: 30%;
+	margin: 20px 1.3%;
+	float: left;
+}
+
+.footer .column {
+
+	background-color: #B2D6FF
+}
