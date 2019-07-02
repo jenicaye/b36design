@@ -7,7 +7,14 @@
 	<title>Wireframe Activity</title>
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Bitter|Raleway&display=swap" rel="stylesheet">
+		
+	<!-- fav icon -->
+	<!-- icon of the webpage at tab bar -->
+	<link rel="icon" type="image/gif/png" href="assets/images/a.png">
+
+
 	<!-- fontawesome icons -->
+
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -47,16 +54,30 @@
 				<!-- label vs span, click username, label will automatic go to the cell -->
 				<input id="name" type="text" class="form-control">
 
-				<div class="alert">
+				<div id="user-alert" class="alert">
 					<h3>Make sure to enter a wholesome username</h3>
 				</div>
+				<label for="email">Email</label>
+				<input id="email" type="email" class="form-control">
+				<div id="email-alert" class="alert">
+					<h3>Input a valid email address</h3>
+				</div>
+				<label for="pass">Password</label>
+				<input type="password" id="pass" class="form-control">
+				<label for="pass2">Confirm Password</label>
+				<input type="password" id="pass2" class="form-control">
+
+				<button type="button" class="btn-block">Register</button>
 			</form>
+			<!-- type="button" to prevent go back to home page -->
+			
 		</section>
 		<!-- end section register -->
 
 		<section id="services" class="services">
 			SERVICES
 		</section>
+
 		<!-- end section services -->
 
 

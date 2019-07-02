@@ -54,7 +54,7 @@ p + div + p {
 
 }*/
 
-2
+/*2*/
 #child1 + div + p {
 	background-color: yellow;
 }
