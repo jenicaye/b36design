@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*#container {
+	height: 1000vh;
+	background-color: red;
+}*/
+
+#warn {
+	width: 35%;
+}
+
+#win {
+	width: 75%;
+}
+
+#info {
+	width: 95%;
+}

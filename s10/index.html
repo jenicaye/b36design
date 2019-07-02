@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>Bootstrap Intro</title>
+
+	<!-- fontawesome icons -->
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- google fonts -->
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+<!-- start of nav -->
+
+	<!-- navbar-expand-lg=covert navigation bar to burger/expanded -->
+	<!-- nav-dark=bootstramp assumes that your background is dark, font will be light-->
+	<!-- nav-light=bootstramp assumes that your background is light, font will be dark-->
+	<!-- bg-primary=bootstrap considers blue as your background-color -->
+	<!-- bg-danger (red) -->
+	<!-- bg-warning (yellow) -->
+	<!-- bg-info (aqua) -->
+	<!-- bg-success (green)-->
+	<!-- nav-brand -->
+	 <!-- primary (blue)/danger (red)/ warning(yellow)/ info (aqua)/... are color code -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<a href="#" class="navbar-brand">
+			<i class="far fa-hand-peace"></i>
+			Batch 36
+		</a>
+
+		<!-- navbar-toggler= refers to as the border for the "burger" navbar -->
+								<!-- requires data target, data target must be the same with desired content (must desclare same id as data target-->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+			<span class="navbar-toggler-icon"></span>
+			<!-- above one line code make the burger -->
+		</button>
+
+
+		<div id="navbar-nav" class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto">
+				<!-- ml-auto--margin left auto indents items to left-->
+				<!-- mr-auto margin right auto indents items to right-->
+				<!-- mx-auto margin center auto indents items to center-->
+				<li class="nav-item">
+					<a href="#" class="nav-link active">
+						Home
+					</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						About
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+<!-- end of nav -->
+<!-- start of container -->
+	<div id="container" class="container text-left">
+	<!-- container fluid to remove white space -->
+		<nav>
+			<ol class="breadcrumb">
+					<li class="breadcrumb-item">Bahay</li>
+					<li class="breadcrumb-item">Sumakay ng kotse</li>
+					<li class="breadcrumb-item active">ENZO Building</li>
+			</ol>
+		</nav>
+		<div class="alert alert-success">
+			<!-- success is color code -->
+			<h2>Time to go back to CSS!</h2>
+			<small>I miss CSS!</small>
+			<hr class="my-4">
+			<p>Bootstrap is too easy</p>
+		</div>
+
+		<div class="jumbotron text-center">
+			<h1 class="display-1">This is my clean website</h1>
+			<hr class="my-3">
+			<!-- my-3=apply margin on y axis with 3 as value-->
+			<!-- margin one to five -->
+			<!-- mx margin on x axis  -->
+			<!-- display one to three -->
+			<p class="lead">This is created by Jenica Ye who is powered by coffee and Gatorade</p>
+			<!-- class lead to make paragraph stand out/emphasize -->
+			<!-- end of Jumbo -->
+			<img src="assets/images/bp.jpg" class="img-fluid">
+			<!-- img-fluid = makes the image responsive regardless of width of container, from bootstraps 3 -->
+
+			<!-- progress-bar -->
+			<div class="progress">
+				<div id="warn" class="progress-bar bg-warning"></div>
+			</div>
+
+			<div class="progress">
+				<div id="win" class="progress-bar bg-success"></div>
+			</div>
+
+			<div class="progress">
+				<div id="info" class="progress-bar bg-infor progress-bar-striped"></div>
+			</div>
+
+			<div class="progress">
+				<div id="info" class="progress-bar bg-infor progress-bar-striped progress-bar-animated"></div>
+			</div>
+
+			<!-- pagination -->
+
+			<nav>
+				<ul class="pagination">
+					<li class="page-item">
+						<a href="#" class="page-link">Back</a>
+					</li>
+					<li class="page-item">
+						<a href="#" class="page-link">1</a>
+					</li>
+					<li class="page-item">
+						<a href="#" class="page-link">2</a>
+					</li>
+					<li class="page-item">
+						<a href="#" class="page-link">Next</a>
+					</li>
+				</ul>
+			</nav>
+	</div>
+<!-- end of container -->
+
+			<!-- button -->
+
+			<button class="btn btn-success">Success button</button>
+			<button class="btn btn-block btn-outline-primary">Primary button</button>
+			<button class="btn btn-block btn-danger">Block button</button>
+			<button class="btn btn-outline-info">Bordered button</button>
+
+
+<!-- start of form -->
+			<!-- aria something are for screen-reader -->
+			<!-- aria-disabled="true" -->
+
+
+
+			<form>
+				<!-- Input group -->
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Email:</span>
+					</div>
+					<input type="email" class="form-control" placeholder="Input Email Here">
+				</div>
+			
+
+				<div class="form-group">
+					<label for="username">Username:</label>
+					<input type="text" id="username" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<label for="text-area">Comments:</label>
+					<textarea id="text-area" rows="3" class="form-control" placeholder="Comments Section"></textarea>
+				</div>
+			</form>
+<!-- end of form -->
+
+
+
+
+	
+
+
+	<!-- bootstrap dependencies -->
+	<!-- jquery first, then popper then bootstrap js -->
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
