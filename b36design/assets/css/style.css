@@ -1,0 +1,48 @@
+/*css reset*/
+/*should not use default font, should declare own*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Merriweather', sans-serif;
+}
+
+
+
+/*landing page*/
+
+
+#jumbo-land{
+	height: 100vh;
+	padding-top: 20%;
+	background-color: #333;/*off-black*/
+	border-radius: 0;/*removes jumbotron's rounded corners*/
+	background-image: url(https://cdn-images-1.medium.com/max/2600/1*_kL-szqqP_Xw4ChHyIsoww.jpeg);
+	background-size: cover;
+}
+
+
+/*combinators*/
+
+.jumbotron h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 80px;
+	color: #fff44f;/*off-white*/
+}
+.jumbotron p {
+	font-family: 'Parisienne', cursive;
+	font-size: 35px;
+	color: #f2f2f2;/*lemon yellow*/
+}
+
+.jumbotron hr {
+	background-color: #fff;/*white*/
+}
+
+.btn a {
+	text-decoration: none;
+	color: /*white*/#fff;/*white*/
+}
+
+
+/*end of landing page*/

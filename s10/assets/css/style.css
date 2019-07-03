@@ -20,3 +20,28 @@
 #info {
 	width: 95%;
 }
+
+#kaliwa {
+	background-color: green;
+	height: 50vh;
+}
+
+#kanan {
+	background-color: red;
+	height: 30vh
+}
+
+.first {
+	background-color: skyblue;
+	/*height: 150px;*/
+}
+
+.second {
+	background-color: yellow;
+	/*height: 250px;*/
+}
+
+.third {
+	background-color: pink;
+	/*height: 120px;*/
+}

@@ -10,6 +10,8 @@
 	<!-- fontawesome icons -->
 	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
 	<!-- google fonts -->
 
 	<!-- bootstrap css -->
@@ -85,7 +87,8 @@
 		</div>
 
 		<div class="jumbotron text-center">
-			<h1 class="display-1">This is my clean website</h1>
+			<h1 class="display-2 animated bounce">This is my clean website</h1>
+			<!-- animation library -- animated css -->
 			<hr class="my-3">
 			<!-- my-3=apply margin on y axis with 3 as value-->
 			<!-- margin one to five -->
@@ -133,7 +136,106 @@
 				</ul>
 			</nav>
 	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+			<div class="col-md-1">1 col</div>
+		</div><!-- end of row -->
+
+		<div class="row">
+			<div id="kanan" class="col-lg-3 col-md-6 col-12">kanan</div>
+			<div id="kaliwa" class="col-lg-6 col-md-6 col-12">kaliwa</div>
+			<div id="kanan" class="col-lg-3 col-md-6 col-12">kanan</div>
+		</div>
+		<div class="row">
+			<!-- "row" and "col-md-9" should be sperately declared, declare container "row" first -->
+			<!-- <div class="col-md-9"> -->
+			<div class="col-6 col-md-7 col-lg-8">
+				<img src="assets/images/bp.jpg" class="img-fluid">
+				<!-- class="img-fluid" -- width only -->
+				<!-- container fluid always has padding -->
+				<!-- below nested insided the container -->
+			</div>
+			<!-- <div class="col-md-3 test-justify"> -->
+			<!-- bootstrap--contents -->
+			<!-- bootstrap--carousel -->
+			<div class="col-6 col-md-5 col-lg-4 text-justify">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div><!-- end of container fluid -->
+
+
+	<div class="container"></div>
+		<!-- nesting columns -->
+		<div class="row">
+			<div class="col-md-4 first">
+				<ul class="list-group">
+					<li class="list-group-item">First</li>
+					<li class="list-group-item active">Second</li>
+					<li class="list-group-item">Third</li>
+					<li class="list-group-item">Fourth</li>
+				</ul>
+			</div>
+				<!-- animate.css -->
+			<div class="col-md-4 second">second
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/images/bp.jpg" class="img-fluid">
+					</div>
+					<div class="col-md-6">
+						<h2>Sea Breeze Beach House</h2>
+					</div>
+				</div>
+			</div>
+	<!-- Bootstrap Cards -->
+			<div class="col-md-4 third">
+				<div class="card">
+					<!-- <p>hello</p> -->
+					<img src="assets/images/bp.jpg" class="card-img-top">
+					<h5 class="card-tittle">Boat</h5>
+					<p class="card-text">A quick brown fox jumps over the lazy dog</p>
+					<button class="btn btn-block btn-primary">Let's go!</button>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 mx-auto">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<!-- bootstrap 3 replace wells and  -->
+				<!-- card can be used in pictures -->
+			</div>
+		</div>
+
 <!-- end of container -->
+
 
 			<!-- button -->
 
@@ -181,10 +283,10 @@
 	<!-- jquery first, then popper then bootstrap js -->
 
 	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
 	
 	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="assets/js/jquery/popper.min.js"></script>
 	
 	<!-- Latest compiled JavaScript -->
 	<script src="assets/js/bootstrap.min.js"></script>
