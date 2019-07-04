@@ -1,1 +1,120 @@
-contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>B36 Design | Home Page</title>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Parisienne&display=swap" rel="stylesheet">
+
+	<!-- animated css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+
+	<!-- fontawesome icons -->
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
+					<!-- bg-primary define customization of the nav, don't add -->
+			<a href="" class="navbar-brand">
+				<i class="far fa-hand-peace"></i>B36 Design
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+						<!-- <i class="far fa-hand-peace"></i> -->
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="home.html" class="nav-link">
+							Home
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">
+							About
+						</a>
+					</li>
+					<li class="nav-item active">
+						<a href="contact.html" class="nav-link">
+							Contact
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</nav><!-- end of nav -->
+		<div class="row">
+			<header class="col-12 col-md-12 col-lg-12">
+				<h1 class="text-center py-3">Contact Us Page</h1>
+			</header>
+		</div><!-- end of row -->
+		<div class="row">
+			<div class="col-12 col-md-6 col-lg-6">
+				<form>
+					<div class="form-group">
+						<label for="username">Username:</label>
+						<input type="text" id="username" class="form-control" placeholder="Enter Your Username...">
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" id="email" class="form-control" placeholder="Enter Your Email...">
+					</div>
+
+					<div class="form-group">
+						<label for="contact">Contacts:</label>
+						<input type="number" id="contact" class="form-control" placeholder="Enter Your Contact Number...">
+					</div>
+
+					<div class="form-group">
+						<label for ="message">Message:</label>
+						<textarea id="message" class="form-control" placeholder="Enter Your Message Here"></textarea>
+					</div>
+		
+					<button class="btn btn-block btn-success">Submit</button>
+
+				</form>
+			</div><!-- end of left side -->
+
+			<div class="col-12 col-md-6 col-lg-6">
+				<iframe id="gmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15448.323215419658!2d121.0421905!3d14.5373705!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9b8d33b2c6d%3A0xb0c2f766338a92bd!2sZuitt+Makati!5e0!3m2!1sen!2sph!4v1562228007033!5m2!1sen!2sph" allowfullscreen></iframe>
+
+				<!-- width, height, frameborder, style should be in external css, "width="600" height="450" frameborder="0" style="border:0"  -->
+			</div><!-- end of right side -->
+
+		</div>
+	</div><!-- end of container fluid -->
+
+	<footer class="footer bg-primary">
+			<p class="text-center p-3 mb-0">Jenica Ye | Zuitt Coding Bootcamp</p>
+			<!-- p-3 refer to padding of 3px -->
+	</footer>
+	
+
+	<!-- bootstrap js dependencies -->
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

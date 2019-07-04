@@ -1,10 +1,15 @@
-/*css reset*/
+@font-face {
+	font-family: 'galaxy';
+	src: url(../fonts/galaxy.ttf);
+}
+
+	/*css reset*/
 /*should not use default font, should declare own*/
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Raleway', sans serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -36,8 +41,83 @@
 
 .btn a {
 	text-decoration: none;
-	color: /*white*/#fff;/*white*/
+	color: #fff;/*white*/
 }
 
 
 /*end of landing page*/
+
+
+
+/*#navbar {
+	background-color: indianred;
+}*/
+
+/*button .navbar-toggler-icon {
+
+}*/
+
+
+
+/* start of home page*/
+
+#home-landing {
+	background-color: #333;
+	color: #fff;
+	padding: 20%;
+}
+
+/*.kolumn {
+	background-color: red;
+}*/
+
+
+/* end of home page*/
+
+
+
+/*start of about page*/
+#jumbotron-about {
+	background-color: #333;
+	height: 90vh;
+	border-radius: 0;
+	margin-bottom: 0s;
+}
+
+#landing-about {
+	color: #f2f2f2;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	font-family: 'galaxy', sans-serif;
+}
+/*An em is a unit in the field of typography, equal to the currently specified point size. For example, one em in a 16-point typeface is 16 points.*/
+/*The name em was originally a reference to the width of the capital M in the typeface and size being used, which was often the same as the point size.*/
+
+
+#mission {
+	height: 100%;
+	background-color: #333;/*off black*/
+	color: #fff;/*off white*/
+}
+
+#vision {
+	height: 100%;
+	background-color: #fff;/*off white*/
+	color: #333;/*off black*/
+}
+
+.about-tags {
+	font-weight: bold;
+	font-family: "galaxy", sans-serif;
+}
+/*end of about page*/
+
+/*start of contact page*/
+#gmap {
+	width: 100%;
+	display: block;
+	border: none;
+	height: 70vh;
+	border-radius: 10px;
+}
