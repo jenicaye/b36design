@@ -71,6 +71,18 @@
 	background-color: red;
 }*/
 
+/*if you want to make the images in your carousel have the same height*/
+
+#carousel-home {
+	height: 50vh;/*this will resize the height of the carousel*/
+}
+
+#carousel-home img {
+	height: 50vh;/*resize the height of the images in the carousel*/
+					/*to fit the new height of the carousel*/
+}
+}
+
 
 /* end of home page*/
 

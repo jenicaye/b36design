@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'nightsky';
-  src: url(../fonts/nightsky.ttf);
+  font-family: 'galaxytail';
+  src: url(../fonts/galaxytail.ttf);
 }
 
 /*css reset*/
@@ -22,9 +22,21 @@
   text-align: center;
 
 }
+/*
+<!-- The video -->
+					<video autoplay muted loop id="myVideo">
+ 					<source src="assets/images/galaxy1.avi" type="video/avi">
+					</video>*/
+.logo {
+	width: 25%;
+	border-radius: 100%;
+	padding: 10px;
+}
 
-
-
+hr {
+	margin-left: 43%;
+	margin-right: 43%;
+}
 span {
   font-size: medium;
 }
@@ -38,7 +50,7 @@ span {
 	padding-top: 20%;
 	background-color: #333;/*off-black*/
 	border-radius: 0;/*removes jumbotron's rounded corners*/
-	background-image: url(https://cdn-images-1.medium.com/max/2600/1*_kL-szqqP_Xw4ChHyIsoww.jpeg);
+	background-image: url(../images/constellation0.jpg);
 	background-size: cover;
 }
 
@@ -46,10 +58,10 @@ span {
 /*combinators*/
 
 .jumbotron h1 .title{
-	font-family: 'nightsky', sans-serif;
-	font-size: 100px;
-  font-kerning: normal;
-  font-style: italic;
+	font-family: 'galaxytail', sans-serif;
+	font-size: 60px;
+  	font-kerning: normal;
+  	font-style: italic;
 	color: #fff44f;/*off-white*/
 }
 .jumbotron p {
@@ -65,25 +77,51 @@ span {
 
 
 .btn a span {
-	font-size: 20px;
-  font-family: 'Merriweather', serif;
+	font-size: 15px;
+  	font-family: 'Merriweather', serif;
 	color: /*white*/#fff;/*white*/
-  margin-top: 50px;
+  	margin-top: 50px;
 }
-
 
 
 
 /*end of landing page*/
 
-/*#navbar {
-	background-color: indianred;
-}*/
+#navbar {
+	background-color: #070634;/*very dark blue*/
+	color: white;
+}
 
+.copyright {
+	background-color: #070634;/*very dark blue*/
+	color: white;
+}
+
+.container-fluid {
+	background-image: url(../images/constellation0.jpg);
+	margin: 0px 0px;
+	padding: 0;
+}
+
+#stargaze2 {
+	background-image: url(../images/stargaze2.png);
+	position: relative;
+	width:  1280px;
+	height: 620px;
+	display: block;
+}
+
+
+.stargaze3 {
+	width: 1235px;
+	height: 575px;
+	position: absolute;
+	object-fit: cover; 
+}
 /*button .navbar-toggler-icon {
 
 }*/
-
+/*background image with pseudo*/
 
 
 /*start of home page*/
@@ -94,7 +132,6 @@ span {
 	color: #f2f2f2;/*off-white*/
 	height: 80vh;
 	font-size: 2em;
-	padding: 20%;
 	letter-spacing: 5px;
 	font-family: 'Merriweather', serif;
 }
@@ -103,13 +140,20 @@ span {
 	background-color: red;
 }*/
 
+
+
+
+/*.carousel-inner > .item > img {
+  width: 800px;
+  height: 400px;
+}*/
 /*end of home page*/
 
 /*start of about page*/
 #jumbotron-about {
 	background-color: #333;/*off-black*/
 	color: #f2f2f2;/*off-white*/
-	height: 80vh;
+	height: 90vh;
 	border-radius: 0;
 	margin-bottom: 0;
 }
@@ -142,7 +186,7 @@ span {
 
 .about-tags {
 	font-weight: bold;
-	font-family: "galaxy", sans-serif;
+	font-family: "galaxytail", sans-serif;
 }
 /*end of about page*/
 
